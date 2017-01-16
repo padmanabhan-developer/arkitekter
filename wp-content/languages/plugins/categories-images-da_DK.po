@@ -1,0 +1,65 @@
+# Translation of Stable (latest release) in Danish
+# This file is distributed under the same license as the Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2016-05-13 06:46:36+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/2.1.0-alpha\n"
+"Project-Id-Version: Stable (latest release)\n"
+
+#: categories-images.php:61 categories-images.php:82 categories-images.php:231
+msgid "Image"
+msgstr "Billede"
+
+#: categories-images.php:64 categories-images.php:84 categories-images.php:213
+msgid "Upload/Add image"
+msgstr "Upload/Tilføj billede"
+
+#: categories-images.php:85 categories-images.php:214
+msgid "Remove image"
+msgstr "Fjern billede"
+
+#: categories-images.php:249
+msgid "Thumbnail"
+msgstr "Miniature"
+
+#: categories-images.php:269 categories-images.php:276
+msgid "Categories Images settings"
+msgstr "Indstillinger"
+
+#. #-#-#-#-#  tmp-categories-images.pot (Categories Images 2.5.3)  #-#-#-#-#
+#. Plugin Name of the plugin/theme
+#: categories-images.php:269 categories-images.php:307
+msgid "Categories Images"
+msgstr "Kategori billeder"
+
+#: categories-images.php:277
+msgid "Excluded Taxonomies"
+msgstr "Ekskludere Taksonomier"
+
+#: categories-images.php:282
+msgid "Please select the taxonomies you want to exclude it from Categories Images plugin"
+msgstr "Vælg de Taksonomier, som du ikke ønsker Kategori billeder på."
+
+#: categories-images.php:302
+msgid "You do not have sufficient permissions to access this page."
+msgstr "Du har ikke de nødvendige rettigheder for at tilgå denne side."
+
+#. Plugin URI of the plugin/theme
+msgid "http://zahlan.net/blog/2012/06/categories-images/"
+msgstr "http://zahlan.net/blog/2012/06/categories-images/"
+
+#. Description of the plugin/theme
+msgid "Categories Images Plugin allow you to add an image to category or any custom term."
+msgstr "Kategori billeder giver dig mulighed for at sætte et billede på kategorier og andre brugerdefineret Taksonomier."
+
+#. Author of the plugin/theme
+msgid "Muhammad Said El Zahlan"
+msgstr "Muhammad Said El Zahlan"
+
+#. Author URI of the plugin/theme
+msgid "http://zahlan.net/"
+msgstr "http://zahlan.net/"

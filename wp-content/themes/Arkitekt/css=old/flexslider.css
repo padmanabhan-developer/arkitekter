@@ -1,0 +1,862 @@
+.flex-container a:active,
+
+
+.flexslider a:active,
+
+
+.flex-container a:focus,
+
+
+.flexslider a:focus {
+
+
+    outline: none
+
+
+}
+
+
+
+
+
+.slides,
+
+
+.flex-control-nav,
+
+
+.flex-direction-nav {
+
+
+    margin: 0;
+
+
+    padding: 0;
+
+
+    list-style: none
+
+
+}
+
+
+
+
+
+.flexslider {
+
+
+    margin: 0;
+
+
+    padding: 0
+
+
+}
+
+
+
+
+
+.flexslider .slides > li {
+
+
+    display: none;
+
+
+    -webkit-backface-visibility: hidden
+
+
+}
+
+
+
+
+
+.flexslider .slides img {
+
+
+    width: 100%;
+
+
+    height: auto;
+
+
+    display: block;
+
+
+    display: none
+
+
+}
+
+
+
+
+
+.flex-pauseplay span {
+
+
+    text-transform: capitalize
+
+
+}
+
+
+
+
+
+.slides:after {
+
+
+    content: "\0020";
+
+
+    display: block;
+
+
+    clear: both;
+
+
+    visibility: hidden;
+
+
+    line-height: 0;
+
+
+    height: 0
+
+
+}
+
+
+
+
+
+html[xmlns] .slides {
+
+
+    display: block
+
+
+}
+
+
+
+
+
+* html .slides {
+
+
+    height: 1%
+
+
+}
+
+
+
+
+
+.no-js .slides > li:first-child {
+
+
+    display: block
+
+
+}
+
+
+
+
+
+.flexslider {
+
+
+    margin: 0;
+
+
+     
+
+
+    position: relative
+
+
+}
+
+
+
+
+
+.flex-viewport {
+
+
+    height: 100%;
+
+
+    -webkit-transition: all 1s ease;
+
+
+    -moz-transition: all 1s ease;
+
+
+    -o-transition: all 1s ease;
+
+
+    transition: all 1s ease
+
+
+}
+
+
+
+
+
+.loading .flex-viewport {
+
+
+    max-height: 300px
+
+
+}
+
+
+
+
+
+.flexslider .slides {
+
+
+    zoom: 1;
+
+
+    height: 100%
+
+
+}
+
+
+
+
+
+.carousel li {
+
+
+    margin-right: 5px
+
+
+}
+
+
+
+
+
+.flex-direction-nav {
+
+
+    *
+
+
+    height: 0;
+
+
+    line-height: 80px;
+
+
+}
+
+
+
+
+
+.full-style .flex-direction-nav{ display:block;}
+
+
+
+
+
+.flex-direction-nav a {
+
+
+    text-decoration: none;
+
+
+    display: block;
+
+
+    width: 50px;
+
+
+    margin: -20px 0 0;
+
+
+    position: absolute;
+
+
+    top: 50%;
+
+
+    z-index: 10;
+
+
+    overflow: hidden;
+
+
+    cursor: pointer;
+
+
+    color: #fff;
+
+
+    text-shadow: 1px 1px 0 rgba(255, 255, 255, 0.3);
+
+
+    -webkit-transition: all .3s ease;
+
+
+    -moz-transition: all .3s ease;
+
+
+    transition: all .3s ease;
+
+
+    width: 18px;
+
+
+    height: 37px;
+
+
+    background-size: 100%;
+
+
+    background-repeat: no-repeat;
+
+
+}
+
+
+
+
+
+.flex-direction-nav .flex-prev {
+
+
+    left: -74px;
+
+
+    /* background: rgba(1,1,1,0.5); */
+
+
+}
+
+
+.flex-direction-nav .flex-prev:before,.flex-direction-nav .flex-next:before{font: normal normal normal 14px/1 FontAwesome;font-size: 26px;}
+
+
+.flex-direction-nav .flex-prev:before{ content:' '; background:url(../images/prev.png) no-repeat center center; height:100%; width:100%;  float:left; }
+
+
+
+
+
+.flex-direction-nav .flex-next {
+
+
+    /* background: rgba(1,1,1,0.5); */
+
+
+    right: -74px;
+
+
+}
+
+
+.flex-direction-nav .flex-next:before{ content:' '; background:url(../images/next.png) no-repeat center center; height:100%; width:100%; float:left; }
+
+
+
+
+
+
+
+
+.flex-direction-nav .flex-disabled {
+
+
+    opacity: 0!important;
+
+
+    filter: alpha(opacity=0);
+
+
+    cursor: default
+
+
+}
+
+
+
+
+
+.flex-control-nav {
+
+
+    width: 100%;
+
+
+    position: absolute;
+
+
+    bottom: -40px;
+
+
+    text-align: center
+
+
+}
+
+
+
+
+
+.flex-control-nav li {
+
+
+    margin: 0 2px;
+
+
+    display: inline-block;
+
+
+    zoom: 1;
+
+
+    *
+
+
+    display: inline;
+
+
+}
+
+
+
+
+
+.flex-control-paging li a {
+
+
+    border-radius: 50%;
+
+
+    width: 11px;
+
+
+    height: 11px;
+
+
+    display: block;
+
+
+    border: 2px solid #fff;
+
+
+    background: #fff;
+
+
+    cursor: pointer;
+
+
+    text-indent: -9999px;
+
+
+}
+
+
+
+
+
+.flex-control-paging li a:hover {
+
+
+    background: #fff
+
+
+}
+
+
+
+
+
+.flex-control-paging li a.flex-active {
+
+
+    background: none;
+
+
+    cursor: default
+
+
+}
+
+
+
+
+
+@media (max-width: 767px) {
+
+
+    .flex-control-nav {
+
+
+        display: none
+
+
+    }
+
+
+}
+
+
+
+
+
+.flexslider {
+
+
+    border: none;
+
+
+    /* overflow: hidden; */
+
+
+    height: 100%;
+
+
+    width:100%;
+
+
+}
+
+
+
+
+
+slides {
+
+
+    height: 100%
+
+
+}
+
+
+
+
+
+.flexslider .slides img {
+
+
+    max-width: 100%;
+
+
+    display: block;
+
+
+    margin: auto;
+
+
+    width: 100%;
+
+
+    height: auto
+
+
+}
+
+
+
+
+
+.flex-control-nav {
+
+
+    bottom: 15px;
+
+
+    z-index: 1000;
+
+
+}
+
+
+
+
+
+.flexslider .slides li {
+
+
+    position: relative;
+
+
+    height: 100%
+
+
+}
+
+
+
+
+
+.flex-caption {
+
+
+    position: absolute;
+
+
+    left: 0;
+
+
+    right: 0;
+
+
+    bottom: 0;
+
+
+    z-index: 1;
+
+
+    padding: 0 30px;
+
+
+    display: inline-block;
+
+
+    max-width: 1170px;
+
+
+    margin: auto;
+
+
+    top: 50%;
+
+
+    text-align: center;
+
+
+    -webkit-transform: translateY(-50%);
+
+
+    -moz-transform: translateY(-50%);
+
+
+    -ms-transform: translateY(-50%);
+
+
+    transform: translateY(-50%)
+
+
+}
+
+
+
+
+
+.flex-caption h2 {
+
+
+    color: #fff;
+
+
+    font-size: 28px;
+
+
+    margin-bottom: 20px
+
+
+}
+
+
+
+
+
+.flex-caption p {
+
+
+    color: #fff
+
+
+}
+
+
+
+
+
+.flex-caption .post-categories a,
+
+
+.flex-caption .read-more a {
+
+
+    color: #fff;
+
+
+    font-family: 'Montserrat', sans-serif;
+
+
+    text-transform: uppercase
+
+
+}
+
+
+
+
+
+.flex-control-nav {
+
+
+    position: absolute;
+
+
+    display: inline-block;
+
+
+    left: 0px; display:none;
+
+
+}
+
+
+
+
+
+.flex-direction-nav a {
+
+
+    height: 47px;
+
+
+    top: 50%;
+
+
+    font-size: 0;
+
+
+    width: 49px;
+
+
+    line-height: 65px;
+
+
+    text-align: center;
+
+
+}
+
+
+.flex-direction-nav a:hover{ background:#b82522; }
+
+
+
+
+
+@media (max-width: 768px) {
+
+
+    .flex-caption {
+
+
+        display: none
+
+
+    }
+
+
+    .slider-left ol.flex-control-nav,
+
+
+    .slider-right ol.flex-control-nav {
+
+
+        display: block
+
+
+    }
+
+
+}
+
+
+
+
+
+@media screen and (max-width: 860px) {
+
+
+    .flex-direction-nav .flex-prev {
+
+
+        opacity: 1;
+
+
+        left: 10px
+
+
+    }
+
+
+    .flex-direction-nav .flex-next {
+
+
+        opacity: 1;
+
+
+        right: 10px
+
+
+    }
+
+
+}
+
+
+
+
+
+@media (max-width: 767px) {
+
+
+    .flex-direction-nav a {
+
+
+        width: 11px;
+
+
+        height: 20px;
+
+
+        margin: 10px 0 0
+
+
+    }
+
+
+}
+
+
+
+
+
+@media only screen and (max-device-width: 667px) and (-webkit-device-pixel-ratio: 2) {
+
+
+    .page-loader.ios {
+
+
+        display: none!important
+
+
+    }
+
+
+}
